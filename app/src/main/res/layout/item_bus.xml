@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="8dp"
+    android:background="@color/itemBackground">
+
+    <TextView
+        android:id="@+id/textViewNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Номер автобуса"
+        android:textColor="@color/white"/>
+    <TextView
+        android:id="@+id/textViewYear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Год выпуска"
+        android:textColor="@color/white"/>
+
+    <TextView
+        android:id="@+id/textViewSeats"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Количество сидячих мест"
+        android:textColor="@color/white"/>
+
+    <TextView
+        android:id="@+id/textViewFuel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Тип топлива"
+        android:textColor="@color/white"/>
+
+    <TextView
+        android:id="@+id/textViewMaxLife"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Максимальный срок службы"
+        android:textColor="@color/white"/>
+
+    <TextView
+        android:id="@+id/textViewLastMaintenanceDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Максимальный срок службы"
+        android:textColor="@color/white"/>
+</LinearLayout>

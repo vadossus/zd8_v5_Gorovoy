@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/background"
+    android:gravity="center">
+
+
+    <ImageView
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:src="@drawable/icon" />
+    <EditText
+        android:id="@+id/editTextEmail"
+        android:layout_width="match_parent"
+        android:hint="Email"
+        android:background="@drawable/edit"
+        android:layout_height="34dp"
+        android:paddingStart="18dp"
+        android:layout_marginTop="12dp"/>
+
+    <EditText
+        android:id="@+id/editTextUsername"
+        android:layout_width="match_parent"
+        android:hint="Логин"
+        android:background="@drawable/edit"
+        android:layout_height="34dp"
+        android:paddingLeft="18dp"
+        android:layout_marginTop="12dp"/>
+
+    <EditText
+        android:id="@+id/editTextPassword"
+        android:layout_width="match_parent"
+        android:hint="Пароль"
+        android:inputType="textPassword"
+        android:background="@drawable/edit"
+        android:layout_height="34dp"
+        android:paddingLeft="18dp"
+        android:layout_marginTop="12dp"/>
+
+    <Spinner
+        android:id="@+id/spinnerRole"
+        android:layout_width="match_parent"
+        android:background="@drawable/edit"
+        android:layout_height="34dp"
+        android:paddingLeft="18dp"
+        android:layout_marginTop="12dp"/>
+
+    <Button
+        android:id="@+id/buttonLogin"
+        android:layout_width="match_parent"
+        android:text="Зарегистрироваться"
+        android:layout_marginTop="16dp"
+        android:layout_height="38dp"
+        android:background="@drawable/button"
+        android:textColor="@color/white"
+        />
+
+    <Button
+        android:id="@+id/buttonNavigate"
+        android:layout_width="match_parent"
+        android:text="На экран входа"
+        android:layout_marginTop="16dp"
+        android:layout_height="38dp"
+        android:background="@drawable/button"
+        android:textColor="@color/white"
+        />
+
+</LinearLayout>

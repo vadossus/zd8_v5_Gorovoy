@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".DriverActivity"
+    android:background="@color/background">
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:text="На экран входа"
+        android:textColor="@android:color/white"
+        android:background="@drawable/button"
+        android:textAllCaps="false"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="260dp"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewDrivers"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:paddingTop="16dp"
+        android:paddingBottom="8dp"
+        android:background="@drawable/edit"
+        android:clipToPadding="false"/>
+
+    <TextView
+        android:layout_width="424dp"
+        android:layout_height="wrap_content"
+        android:paddingBottom="8dp"
+        android:text="Выберите дату последнего техобслуживания"
+        android:textColor="@android:color/white"
+        android:textSize="18sp" />
+
+    <DatePicker
+        android:id="@+id/dataPicker"
+        android:layout_width="match_parent"
+        android:layout_height="326dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/edit"
+        android:padding="12dp" />
+
+    <Button
+        android:id="@+id/buttonViewDrivers"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Просмотреть автобусы"
+        android:textColor="@android:color/white"
+        android:background="@drawable/button"
+        android:padding="12dp"
+        android:layout_marginBottom="8dp"/>
+
+    <Button
+        android:id="@+id/buttonEditDriver"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Дополнить автобус"
+        android:textColor="@android:color/white"
+        android:background="@drawable/button"
+        android:padding="12dp"/>
+
+</LinearLayout>

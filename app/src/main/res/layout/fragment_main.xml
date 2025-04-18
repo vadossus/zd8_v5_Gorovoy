@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/buttonBusManagement"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Управление автобусами"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/buttonDriverManagement"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Управление водителями"
+        app:layout_constraintTop_toBottomOf="@id/buttonBusManagement"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/buttonRouteManagement"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Управление маршрутами"
+        app:layout_constraintTop_toBottomOf="@id/buttonDriverManagement"
+        app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

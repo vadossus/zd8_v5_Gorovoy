@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/mainFragment">
+
+        <fragment
+            android:id="@+id/mainFragment"
+            android:name="com.example.myapplication.MainFragment"
+            tools:layout="@layout/activity_main" >
+            <action
+                android:id="@+id/action_mainFragment_to_busManagementFragment"
+                app:destination="@id/busManagementFragment" />
+            <action
+                android:id="@+id/action_mainFragment_to_driverManagementFragment"
+                app:destination="@id/driverManagementFragment" />
+            <action
+                android:id="@+id/action_mainFragment_to_routeManagementFragment"
+                app:destination="@id/routeManagementFragment" />
+        </fragment>
+
+        <fragment
+            android:id="@+id/busManagementFragment"
+            android:name="com.example.myapplication.BusManagementFragment"
+            tools:layout="@layout/fragment_bus_management" />
+
+        <fragment
+            android:id="@+id/driverManagementFragment"
+            android:name="com.example.myapplication.DriverManagementFragment"
+            tools:layout="@layout/fragment_driver_management" />
+
+        <fragment
+            android:id="@+id/routeManagementFragment"
+            android:name="com.example.myapplication.RouteManagementFragment"
+            tools:layout="@layout/fragment_route_management" />
+    </navigation>

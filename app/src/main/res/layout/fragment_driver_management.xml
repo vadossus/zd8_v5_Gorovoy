@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/background">
+    <Button
+        android:id="@+id/back"
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:text="На экран входа"
+        android:textColor="@android:color/white"
+        android:background="@drawable/button"
+        android:textAllCaps="false"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:layout_marginLeft="265dp"
+        />
+
+    <EditText
+        android:id="@+id/editTextDriverName"
+        android:layout_width="match_parent"
+        android:background="@drawable/edit"
+        android:layout_height="34dp"
+        android:paddingLeft="18dp"
+        android:layout_marginTop="16dp"
+        android:hint="Имя водителя"
+        />
+
+    <EditText
+        android:id="@+id/editTextDriverSurname"
+        android:layout_width="match_parent"
+        android:background="@drawable/edit"
+        android:layout_height="34dp"
+        android:paddingLeft="18dp"
+        android:layout_marginTop="16dp"
+        android:hint="Фамилия водителя"
+        />
+
+    <EditText
+        android:id="@+id/editTextDriverExperience"
+        android:layout_width="match_parent"
+        android:background="@drawable/edit"
+        android:layout_height="34dp"
+        android:paddingLeft="18dp"
+        android:layout_marginTop="16dp"
+        android:hint="Стаж (лет)"
+        android:inputType="number"
+        />
+
+    <EditText
+        android:id="@+id/editTextDriverLogin"
+        android:layout_width="match_parent"
+        android:background="@drawable/edit"
+        android:layout_height="34dp"
+        android:paddingLeft="18dp"
+        android:layout_marginTop="16dp"
+        android:hint="Логин"
+        />
+
+    <EditText
+        android:id="@+id/editTextDriverPassword"
+        android:layout_width="match_parent"
+        android:background="@drawable/edit"
+        android:layout_height="34dp"
+        android:paddingLeft="18dp"
+        android:layout_marginTop="16dp"
+        android:hint="Пароль"
+        android:inputType="textPassword"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:layout_marginRight="5dp"
+            android:id="@+id/buttonAddDriver"
+            android:layout_width="0dp"
+            android:layout_height="38dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/button"
+            android:layout_weight="1"
+            android:textColor="@color/white"
+            android:text="Добавить
+
+            водителя" />
+        <Button
+            android:layout_marginRight="5dp"
+            android:id="@+id/buttonEditDriver"
+            android:layout_width="0dp"
+            android:layout_height="38dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/button"
+            android:layout_weight="1"
+            android:textColor="@color/white"
+            android:text="Редактировать
+        водителя" />
+
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:text="Список водителей"
+        android:textColor="@color/white"
+        android:textSize="24dp" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewDrivers"
+        android:layout_width="match_parent"
+        android:layout_height="238dp"
+        android:padding="12dp"
+        android:background="@drawable/edit"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:layout_marginLeft="5dp"
+            android:id="@+id/buttonViewDrivers"
+            android:layout_width="0dp"
+            android:layout_height="38dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/button"
+            android:layout_weight="1"
+            android:textColor="@color/white"
+            android:text="Посмотреть водителей" />
+
+        <Button
+            android:layout_marginLeft="5dp"
+            android:id="@+id/buttonDeleteDriver"
+            android:layout_width="0dp"
+            android:layout_height="38dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/button"
+            android:layout_weight="1"
+            android:textColor="@color/white"
+            android:text="Удалить водителя" />
+    </LinearLayout>
+</LinearLayout>
