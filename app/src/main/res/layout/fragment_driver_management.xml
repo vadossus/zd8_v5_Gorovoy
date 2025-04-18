@@ -23,6 +23,8 @@
         android:id="@+id/editTextDriverName"
         android:layout_width="match_parent"
         android:background="@drawable/edit"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
         android:layout_height="34dp"
         android:paddingLeft="18dp"
         android:layout_marginTop="16dp"
@@ -35,6 +37,8 @@
         android:background="@drawable/edit"
         android:layout_height="34dp"
         android:paddingLeft="18dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
         android:layout_marginTop="16dp"
         android:hint="Фамилия водителя"
         />
@@ -46,6 +50,8 @@
         android:layout_height="34dp"
         android:paddingLeft="18dp"
         android:layout_marginTop="16dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
         android:hint="Стаж (лет)"
         android:inputType="number"
         />
@@ -58,6 +64,8 @@
         android:paddingLeft="18dp"
         android:layout_marginTop="16dp"
         android:hint="Логин"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
         />
 
     <EditText
@@ -69,6 +77,8 @@
         android:layout_marginTop="16dp"
         android:hint="Пароль"
         android:inputType="textPassword"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
         />
     <LinearLayout
         android:layout_width="match_parent"
@@ -83,9 +93,7 @@
             android:background="@drawable/button"
             android:layout_weight="1"
             android:textColor="@color/white"
-            android:text="Добавить
-
-            водителя" />
+            android:text="Добавить водителя" />
         <Button
             android:layout_marginRight="5dp"
             android:id="@+id/buttonEditDriver"

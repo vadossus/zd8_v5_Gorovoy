@@ -30,6 +30,8 @@
         android:layout_width="match_parent"
         android:layout_height="34dp"
         android:hint="Логин"
+        android:textColorHint="@color/black"
+        android:textColor="@color/black"
         android:background="@drawable/edit"
         android:paddingLeft="18dp"
         />
@@ -39,6 +41,8 @@
         android:id="@+id/editTextPassword"
         android:layout_width="match_parent"
         android:hint="Пароль"
+        android:textColorHint="@color/black"
+        android:textColor="@color/black"
         android:layout_height="34dp"
         android:background="@drawable/edit"
         android:inputType="textPassword"
@@ -60,7 +64,7 @@
         android:id="@+id/buttonNavigateToRegister"
         android:layout_width="match_parent"
         android:layout_height="38dp"
-        android:text="Зарегестрироваться"
+        android:text="Зарегистрироваться"
         android:background="@drawable/button"
         android:textColor="@color/white"/>
 

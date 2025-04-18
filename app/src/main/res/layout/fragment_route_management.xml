@@ -40,6 +40,8 @@
         android:background="@drawable/edit"
         android:layout_height="34dp"
         android:paddingLeft="18dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
         android:layout_marginTop="16dp"
         android:hint="Начальная станция"
         />
@@ -49,6 +51,8 @@
         android:background="@drawable/edit"
         android:layout_height="34dp"
         android:paddingLeft="18dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
         android:layout_marginTop="16dp"
         android:hint="Конечная станция"
         />
@@ -65,14 +69,14 @@
             android:background="@drawable/button"
             android:layout_weight="1"
             android:textColor="@color/white"
-            android:text="Добавить
-            маршрут" />
+            android:text="Добавить маршрут" />
+
         <Button
-            android:layout_marginLeft="5dp"
+            android:layout_marginLeft="-8dp"
             android:id="@+id/buttonEditRoute"
             android:layout_width="0dp"
             android:layout_height="38dp"
-            android:layout_marginTop="16dp"
+            android:layout_marginTop="8dp"
             android:background="@drawable/button"
             android:layout_weight="1"
             android:textColor="@color/white"

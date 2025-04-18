@@ -17,7 +17,9 @@
         android:id="@+id/editTextEmail"
         android:layout_width="match_parent"
         android:hint="Email"
+        android:textColorHint="@color/black"
         android:background="@drawable/edit"
+        android:textColor="@color/black"
         android:layout_height="34dp"
         android:paddingStart="18dp"
         android:layout_marginTop="12dp"/>
@@ -26,6 +28,8 @@
         android:id="@+id/editTextUsername"
         android:layout_width="match_parent"
         android:hint="Логин"
+        android:textColorHint="@color/black"
+        android:textColor="@color/black"
         android:background="@drawable/edit"
         android:layout_height="34dp"
         android:paddingLeft="18dp"
@@ -35,6 +39,8 @@
         android:id="@+id/editTextPassword"
         android:layout_width="match_parent"
         android:hint="Пароль"
+        android:textColorHint="@color/black"
+        android:textColor="@color/black"
         android:inputType="textPassword"
         android:background="@drawable/edit"
         android:layout_height="34dp"
@@ -44,9 +50,11 @@
     <Spinner
         android:id="@+id/spinnerRole"
         android:layout_width="match_parent"
-        android:background="@drawable/edit"
+        android:background="@color/white"
         android:layout_height="34dp"
         android:paddingLeft="18dp"
+        android:textColorHint="@color/black"
+        android:textColor="@color/black"
         android:layout_marginTop="12dp"/>
 
     <Button
